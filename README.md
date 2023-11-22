@@ -1,17 +1,22 @@
 # Food-Ordering-System-Prototype
 
-The program simulates the ordering process for the restaurant. It allows customers to place food orders by phone, and the operator enters the order information into the system. The program assigns priority indicators to each order and determines the order in which they should be delivered.
+## Overview
+This repository contains a Java-based simulation of a restaurant food ordering system. It's designed to handle the process from the point when a customer places an order over the phone, to the point where the order is ready to be delivered, with an emphasis on order prioritization and membership management.
 
-The prototype program offers the following features:
-<br>
-Ordering Process: Customers can place food orders by phone, and the operator enters the order information into the system.
-<br>
-Priority Indicators: Each food order is assigned a priority indicator, determining the order in which they should be delivered.
-<br>
-Membership: The program includes membership functionality with different priority indicators for VIP members, registered members, and guests.
-<br>
-Member ID: VIP members have member IDs ranging from 8001 to 8199, registered members from 8200 to 8999, and guests from 9000 onwards.
-<br>
-Administrative Functions: The program allows administrative staff to print order lists and delete orders.
-<br>
-Input Validation: The program validates input for member IDs, food selections, and order deletion using an exceptional class, InvalidInputException.
+## Features
+
+- **Ordering Process**: Simulates order placement via phone, with operators entering details into the system.
+- **Priority Indicators**: Assigns priority levels to orders to manage delivery sequencing.
+- **Membership Management**: Offers distinct priority levels for VIP members, registered members, and guests, with unique member ID ranges for each category.
+- **Administrative Functions**: Allows staff to manage the orders, including printing order lists and deleting orders.
+- **Input Validation**: Ensures robust input checking with a custom `InvalidInputException` class.
+
+## Member ID Ranges
+
+- **VIP Members**: 8001 - 8199
+- **Registered Members**: 8200 - 8999
+- **Guests**: 9000 onwards
+
+## License
+
+Distributed under the Apache-2.0 license. See `LICENSE` for more information.
